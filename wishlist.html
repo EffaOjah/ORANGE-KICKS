@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wishlist</title>
+
+    <style>
+        .wishlist-container{
+    max-width:1200px;
+    margin:50px auto;
+    padding:20px;
+}
+
+.wishlist-container h1{
+    color:#ff6b00;
+    margin-bottom:30px;
+}
+
+.wishlist-item{
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    margin-bottom:20px;
+
+    display:flex;
+    align-items:center;
+    gap:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.wishlist-item img{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.wishlist-item button{
+    background:#ff6b00;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:30px;
+    cursor:pointer;
+}
+    </style>
+</head>
+<body>
+
+<h1>My Wishlist</h1>
+
+<div id="wishlist-items"></div>
+
+<script src="js/wishlist.js"></script>
+
+</body>
+</html>
